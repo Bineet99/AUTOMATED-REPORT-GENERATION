@@ -24,3 +24,4 @@ for dept, count in dept_count.items():
     pdf.cell(200, 10, txt=f" - {dept}: {count}", ln=True)
 
 pdf.output("employee_report.pdf")
+print("PDF report generated successfully: employee_report.pdf")
